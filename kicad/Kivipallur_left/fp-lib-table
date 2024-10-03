@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/../keyswitches.pretty")(options "")(descr "daprice"))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/../Keebio-Parts.pretty")(options "")(descr "keebio"))
+)
