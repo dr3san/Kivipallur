@@ -1,0 +1,166 @@
+meta:
+  author: dresan
+  version: 1
+units:
+  kx: cx
+  ky: cy
+  m2: 2.2
+  chocv1: 15 
+  px: kx + 4
+  py: ky + 4
+  $default_width: cx
+  $default_height: cy
+points:
+  mirror: &mirror
+    ref: thumb_outer_single
+    distance: 1.5kx
+  key:
+    spread: kx
+    padding: ky
+  zones:
+    matrix:
+      rotate: 8
+      columns:
+        outer:
+          rows.bottom: $unset
+        pinky:
+          key.stagger: -9
+        ring:
+          key:
+            spread: kx + 3
+            splay: -5
+            stagger: 15
+        middle:
+          key:
+            stagger: 4
+            splay: -3
+            spread: kx + 1.5
+        index:
+          key:
+            splay: -2.5
+            stagger: -7.5
+            spread: kx + 1.5
+        inner:
+          key.stagger: -2
+
+      rows:
+        bottom:
+        home:
+        top:
+
+    thumb:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-9, -31]
+      columns:
+        inner:
+          key:
+            skip: true
+        neutral:
+          key:
+            shift: [2, -2.5]
+        outer: 
+          key:
+            rotate: -8
+            shift: [3.3,-4]
+      rows:
+        single:
+
+outlines:
+  switches_left:
+    - what: rectangle
+      where: /(^matrix_.*)|(^thumb_.*)/
+      size: [chocv1, chocv1]
+  switches_right:
+    - what: rectangle
+      where: /^mirror_.*/
+      size: [chocv1, chocv1]
+  mounting_holes_board_left:
+    - what: circle
+      radius: m2
+      where: matrix_outer_top
+      adjust.shift: [0,12]
+    - what: circle
+      radius: m2
+      where: matrix_outer_home
+      adjust.shift: [0,-12]
+    - what: circle
+      radius: m2
+      where: matrix_ring_top
+      adjust.shift: [0,12]
+    - what: circle
+      radius: m2
+      where: matrix_ring_bottom
+      adjust.shift: [0,-12]
+    - what: circle
+      radius: m2
+      where: matrix_index_top
+      adjust.shift: [0,12]
+    - what: circle
+      radius: m2
+      where: matrix_index_bottom
+      adjust.shift: [0,-12]
+    - what: circle
+      radius: m2
+      where: matrix_middle_top
+      adjust.shift: [80,7]
+    - what: circle
+      radius: m2
+      where: thumb_neutral_single
+      adjust.shift: [11,12]
+  trackball_breakout:
+  # pinheader on 19 mm pikk.
+    - what: rectangle
+      size: [2, 24]
+      where:
+        ref: matrix_middle_bottom
+        shift: [-15,-40]
+  board_left:
+    - what: polygon
+      fillet: 2
+      points: 
+        # bottom left corner
+        - ref: matrix_middle_bottom
+          shift: [-4kx,-40]
+        - ref: matrix_middle_top
+          shift: [-4kx,0.5py]
+        - ref: matrix_pinky_top
+          shift: [-0.5kx,35]
+        - ref: matrix_pinky_top
+          shift: [-0.5kx,0.5py]
+        - ref: matrix_pinky_top
+          shift: [0.6px,0.5py]
+        - ref: matrix_pinky_top
+          shift: [0.6px,32.3]
+        - ref: matrix_middle_top
+          shift: [83.5,0.5py]
+        - ref: matrix_middle_top
+          shift: [83.5,-50]
+        - ref: thumb_outer_single
+          shift: [0.5px,-0.5py]
+        - ref: thumb_neutral_single
+          shift: [0.4px,-0.5py]
+        - ref: thumb_neutral_single
+          shift: [-0.4px,-0.5py]
+        - ref: matrix_middle_bottom
+          shift: [0,-40]
+
+
+  combo_left:
+    - name: board_left
+    - name: mounting_holes_board_left
+      operation: stack
+    - name: switches_left
+      operation: stack
+    - name: trackball_breakout
+      operation: stack
+
+pcbs:
+  Kivipallur_left:
+    outlines:
+      - outline: board_left
+        layer: Edge.Cuts
+      - outline: switches_left
+        layer: User.Drawings
+      - outline: mounting_holes_board_left
+        layer: User.Comments
