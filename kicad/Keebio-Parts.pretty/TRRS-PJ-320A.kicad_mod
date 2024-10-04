@@ -1,38 +1,236 @@
-(module "TRRS-PJ-320A" (layer F.Cu) (tedit 5D54377F)
-  (fp_text reference "REF**" (at 0 14.2) (layer Dwgs.User)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "TRRS-PJ-320A" (at 0 -5.6) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user "Ring2" (at 0 3.25) (layer F.Fab)
-    (effects (font (size 0.7 0.7) (thickness 0.1)))
-  )
-  (fp_text user "Ring1" (at 0 6.25) (layer F.Fab)
-    (effects (font (size 0.7 0.7) (thickness 0.1)))
-  )
-  (fp_text user "Tip" (at 0 10) (layer F.Fab)
-    (effects (font (size 0.7 0.7) (thickness 0.1)))
-  )
-  (fp_text user "Sleeve" (at 0.25 11.4) (layer F.Fab)
-    (effects (font (size 0.7 0.7) (thickness 0.1)))
-  )
-  (fp_line (start 3.05 0) (end -3.05 0) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.05 12.1) (end -3.05 12.1) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.05 0) (end 3.05 12.1) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.05 0) (end -3.05 12.1) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.8 0) (end 2.8 -2) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.8 0) (end -2.8 -2) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.8 -2) (end -2.8 -2) (layer F.SilkS) (width 0.15))
-  (pad "1" thru_hole oval (at -2.3 11.3) (size 1.6 2) (drill oval 0.9 1.3) (layers *.Cu *.Mask))
-  (pad "2" thru_hole oval (at 2.3 10.2) (size 1.6 2) (drill oval 0.9 1.3) (layers *.Cu *.Mask))
-  (pad "4" thru_hole oval (at 2.3 3.2) (size 1.6 2) (drill oval 0.9 1.3) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 0 8.6) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 0 1.6) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
-  (pad "3" thru_hole oval (at 2.3 6.2) (size 1.6 2) (drill oval 0.9 1.3) (layers *.Cu *.Mask))
-  (model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/PJ-320A.step"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 180))
-  )
+(footprint "TRRS-PJ-320A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 14.2 0)
+		(layer "Dwgs.User")
+		(uuid "abde775c-0ec3-4052-848f-48902bdc2404")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TRRS-PJ-320A"
+		(at 0 -5.6 0)
+		(layer "F.Fab")
+		(uuid "27ec5670-45d9-428c-b94e-18684f80ee67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc95152d-b821-47e3-b5f4-d8dd0eb3aa99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f9cee41-3575-41d2-ab9a-839661420153")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dc724f9-fdbb-4099-a1f1-1b6519757632")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.05 0)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c601a792-34ed-465a-a5f7-0dcc1985ee45")
+	)
+	(fp_line
+		(start -2.8 0)
+		(end -2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68b3fc3d-430f-47f7-b788-00657858af0d")
+	)
+	(fp_line
+		(start 2.8 -2)
+		(end -2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6ddb836-d118-42e7-b87a-2be9c4b48b21")
+	)
+	(fp_line
+		(start 2.8 0)
+		(end 2.8 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "650e93e8-2460-4a8b-8b8c-45e17ee43c1b")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end -3.05 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "684ca4f3-fa9d-4c91-a1d8-20eff178768c")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end 3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d2e04bc-09bf-480e-9f30-167af2cb5d52")
+	)
+	(fp_line
+		(start 3.05 12.1)
+		(end -3.05 12.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b67babf-2b3e-4a69-a82b-f987446bedd0")
+	)
+	(fp_text user "Ring1"
+		(at 0 6.25 0)
+		(layer "F.Fab")
+		(uuid "1412dfb7-5ba4-412f-9e7e-eb3fb3623804")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "Sleeve"
+		(at 0.25 11.4 0)
+		(layer "F.Fab")
+		(uuid "cce97795-64e6-4b4e-9209-36a40fdca33e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "Tip"
+		(at 0 10 0)
+		(layer "F.Fab")
+		(uuid "f3d30aad-cec4-4682-b770-d37bf131d985")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "Ring2"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "f4198c17-873d-446a-99bc-649daeeb8702")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.6)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0376c14a-e8dc-41fc-a84e-2d6df2db01f9")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 8.6)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "36d401da-c1eb-4acb-95d4-0b9df668bbad")
+	)
+	(pad "R1" thru_hole oval
+		(at 2.3 6.2)
+		(size 1.6 2)
+		(drill oval 0.9 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "258bd52e-c3d3-4c23-8fc8-66a918ae6cc2")
+	)
+	(pad "R2" thru_hole oval
+		(at 2.3 3.2)
+		(size 1.6 2)
+		(drill oval 0.9 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60ba3f6b-2bf2-48d8-938a-567e40340a96")
+	)
+	(pad "S" thru_hole oval
+		(at -2.3 11.3)
+		(size 1.6 2)
+		(drill oval 0.9 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c277a8e3-a5f6-472a-8e81-861854d356b2")
+	)
+	(pad "T" thru_hole oval
+		(at 2.3 10.2)
+		(size 1.6 2)
+		(drill oval 0.9 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c569af67-9674-4ee0-bdc7-e38230f79b08")
+	)
+	(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/PJ-320A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )

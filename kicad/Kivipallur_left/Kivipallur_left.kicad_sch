@@ -1982,8 +1982,8 @@
 		)
 		(uuid "0176bf2c-1169-420f-9438-48bd7e2cf5cd")
 	)
-	(label "MIDDLE_TOP"
-		(at 25.4 99.06 0)
+	(label "PINKY_HOME"
+		(at 52.07 125.73 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1991,7 +1991,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "043e9bd7-a50b-4d46-b154-f4e7460799bc")
+		(uuid "05ad254d-800e-4c55-b7bd-befb358622c7")
+	)
+	(label "INDEX_TOP"
+		(at 25.4 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07c683b1-01c6-40c6-89e5-96bdcc7dec06")
 	)
 	(label "TRRS_TX"
 		(at 129.54 86.36 180)
@@ -2004,8 +2015,8 @@
 		)
 		(uuid "0d02c40c-aeb0-4395-8e97-68d2adc9337a")
 	)
-	(label "RING_TOP"
-		(at 49.53 125.73 90)
+	(label "INNER_TOP"
+		(at 25.4 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2013,7 +2024,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1093a2cd-4367-4473-a31c-0b346e1f5e68")
+		(uuid "138f9858-1961-4cf4-84b9-4d1d7f29703d")
 	)
 	(label "PINKY_TOP"
 		(at 45.72 26.67 0)
@@ -2026,6 +2037,17 @@
 		)
 		(uuid "17971653-15ad-4d01-a3bb-2544452661c8")
 	)
+	(label "OUTER_BOTTOM"
+		(at 83.82 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26f957b4-452b-4bba-89d8-968c17e098ce")
+	)
 	(label "INDEX_TOP"
 		(at 133.35 26.67 0)
 		(fields_autoplaced yes)
@@ -2036,6 +2058,17 @@
 			(justify left bottom)
 		)
 		(uuid "2c123d62-fc57-47de-acbe-55232bac786d")
+	)
+	(label "MIDDLE_HOME"
+		(at 25.4 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "306f65ec-371e-4daa-bcf7-3dcb870e8a01")
 	)
 	(label "RING_HOME"
 		(at 74.93 39.37 0)
@@ -2048,17 +2081,6 @@
 		)
 		(uuid "34c45d46-0861-47dd-9597-46a6dbf81040")
 	)
-	(label "INDEX_HOME"
-		(at 25.4 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "374f6dde-ec59-4aaa-b45f-67384e1ec069")
-	)
 	(label "MIDDLE_TOP"
 		(at 104.14 26.67 0)
 		(fields_autoplaced yes)
@@ -2070,8 +2092,8 @@
 		)
 		(uuid "37da4335-856c-4f2f-97e6-45981fcfb0cf")
 	)
-	(label "INNER_HOME"
-		(at 25.4 86.36 0)
+	(label "INNER_BOTTOM"
+		(at 54.61 125.73 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2079,7 +2101,40 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "42b5e2e6-83ff-4595-b3f2-33c7fed26398")
+		(uuid "3a7acbd1-cfba-4f54-ac2d-0f73a659d29d")
+	)
+	(label "RING_BOTTOM"
+		(at 83.82 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40d45230-7c8f-4dcd-b325-440e68ac567f")
+	)
+	(label "RING_TOP"
+		(at 25.4 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42693c35-a1f4-4cfc-9e6c-b127776b67c5")
+	)
+	(label "MIDDLE_TOP"
+		(at 25.4 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43c9882f-30cb-4d21-b540-b0778699106a")
 	)
 	(label "RING_TOP"
 		(at 74.93 26.67 0)
@@ -2092,16 +2147,16 @@
 		)
 		(uuid "473ed528-d144-4bac-ab91-659e930cab28")
 	)
-	(label "INNER_TOP"
-		(at 25.4 73.66 0)
+	(label "PINKY_BOTTOM"
+		(at 83.82 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "49d22d68-9f6d-4fa4-a394-986c9b7b6a5c")
+		(uuid "4b34d828-1f79-4189-b386-d57476ad01dc")
 	)
 	(label "THUMB_RIGHT"
 		(at 162.56 64.77 0)
@@ -2113,17 +2168,6 @@
 			(justify left bottom)
 		)
 		(uuid "55323c9d-6039-497a-9401-0c936382d3b2")
-	)
-	(label "INDEX_BOTTOM"
-		(at 25.4 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b5d269b-4fce-4fee-95f1-ffe5c87dc374")
 	)
 	(label "MIDDLE_HOME"
 		(at 104.14 39.37 0)
@@ -2158,39 +2202,6 @@
 		)
 		(uuid "6a47b371-5748-4a1d-954e-d947bea0d309")
 	)
-	(label "PINKY_BOTTOM"
-		(at 83.82 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e4058cf-a309-4c53-bc4a-582ac5d4e8b4")
-	)
-	(label "INNER_BOTTOM"
-		(at 25.4 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "830baff8-20cc-4c62-9ee3-1248ba1e9298")
-	)
-	(label "PINKY_TOP"
-		(at 57.15 125.73 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89595f18-2382-468c-bdef-9fc9b1a1fda2")
-	)
 	(label "THUMB_LEFT"
 		(at 133.35 64.77 0)
 		(fields_autoplaced yes)
@@ -2201,6 +2212,17 @@
 			(justify left bottom)
 		)
 		(uuid "8d246d55-a499-4831-a575-728362a24866")
+	)
+	(label "OUTER_TOP"
+		(at 25.4 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f150bb0-ec6d-4f77-b114-1afdd3195abb")
 	)
 	(label "INDEX_HOME"
 		(at 133.35 39.37 0)
@@ -2213,17 +2235,6 @@
 		)
 		(uuid "95664161-0f96-4749-834b-eb0d053b221d")
 	)
-	(label "INDEX_TOP"
-		(at 25.4 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b8a37cd-c51b-405f-acce-cb0164da4035")
-	)
 	(label "TRRS_RX"
 		(at 25.4 78.74 0)
 		(fields_autoplaced yes)
@@ -2235,8 +2246,8 @@
 		)
 		(uuid "9cba1672-34e6-47f0-a895-469a29b7b776")
 	)
-	(label "RING_HOME"
-		(at 52.07 125.73 90)
+	(label "PINKY_TOP"
+		(at 25.4 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2244,18 +2255,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a3a28153-2d11-457a-a019-1e93677a1da4")
+		(uuid "a4af1459-58a7-43ba-ad23-c4b32ba50fcc")
 	)
-	(label "OUTER_TOP"
-		(at 83.82 91.44 180)
+	(label "INDEX_HOME"
+		(at 25.4 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "a5acf60b-d691-4dae-9251-43e2d52a67fb")
+		(uuid "a50cf8aa-a53f-47e7-8725-0012f8fe9b2e")
 	)
 	(label "INNER_HOME"
 		(at 162.56 39.37 0)
@@ -2267,17 +2278,6 @@
 			(justify left bottom)
 		)
 		(uuid "a9970808-dbb0-4bee-91d6-a7a8485049ce")
-	)
-	(label "PINKY_HOME"
-		(at 59.69 125.73 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af2eebc6-17d8-44d5-b508-0155007f2c1a")
 	)
 	(label "OUTER_TOP"
 		(at 16.51 26.67 0)
@@ -2301,8 +2301,8 @@
 		)
 		(uuid "b4e6dc8a-2fa3-4326-bb25-d6bc2b55e3c5")
 	)
-	(label "RING_BOTTOM"
-		(at 54.61 125.73 90)
+	(label "INDEX_BOTTOM"
+		(at 57.15 125.73 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2310,18 +2310,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b53bad73-f616-44b7-856d-ec7239689ad5")
-	)
-	(label "OUTER_BOTTOM"
-		(at 83.82 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be629879-4632-417a-8a67-561b463a6ee1")
+		(uuid "b7926b6b-6945-4406-9988-9c022c98b4f7")
 	)
 	(label "THUMB_LEFT"
 		(at 83.82 86.36 180)
@@ -2356,6 +2345,17 @@
 		)
 		(uuid "c76b26f6-567f-4a5d-aa07-045ee96538dc")
 	)
+	(label "RING_HOME"
+		(at 49.53 125.73 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7cb79fa-2ec6-4a89-be0e-831b50bd87c2")
+	)
 	(label "TRRS_TX"
 		(at 25.4 76.2 0)
 		(fields_autoplaced yes)
@@ -2389,6 +2389,17 @@
 		)
 		(uuid "ebee1af3-b6ee-40fe-a339-b5317a9384d0")
 	)
+	(label "MIDDLE_BOTTOM"
+		(at 59.69 125.73 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f20a56f7-0b6f-4fea-8ee3-783e07b2ccee")
+	)
 	(label "INNER_BOTTOM"
 		(at 162.56 52.07 0)
 		(fields_autoplaced yes)
@@ -2411,8 +2422,8 @@
 		)
 		(uuid "f80cc3cd-fd06-4c6b-b147-d2ecd1ba485b")
 	)
-	(label "MIDDLE_HOME"
-		(at 25.4 101.6 0)
+	(label "INNER_HOME"
+		(at 25.4 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2420,18 +2431,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f81d181e-3b54-4a64-81df-88a99fc08caa")
-	)
-	(label "MIDDLE_BOTTOM"
-		(at 25.4 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fad9f213-4b08-49fa-b745-7698738230fe")
+		(uuid "f957f840-b557-434f-8468-16d97aa9d244")
 	)
 	(symbol
 		(lib_id "power:GND")
