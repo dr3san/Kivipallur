@@ -15,8 +15,8 @@ points:
     ref: thumb_outer_single
     distance: 1.5kx
   key:
-    spread: kx
-    padding: ky
+    spread: kx + 0.2
+    padding: ky + 0.2
   zones:
     matrix:
       rotate: 8
@@ -42,12 +42,10 @@ points:
             spread: kx + 1.5
         inner:
           key.stagger: -2
-
       rows:
         bottom:
         home:
         top:
-
     thumb:
       anchor:
         ref: matrix_inner_bottom
@@ -71,6 +69,10 @@ outlines:
     - what: rectangle
       where: /(^matrix_.*)|(^thumb_.*)/
       size: [chocv1, chocv1]
+  keycaps_left:
+    - what: rectangle
+      where: /(^matrix_.*)|(^thumb_.*)/
+      size: [kx-0.2, ky-0.2]
   switches_right:
     - what: rectangle
       where: /^mirror_.*/
@@ -95,7 +97,7 @@ outlines:
     - what: circle
       radius: m2
       where: matrix_middle_top
-      adjust.shift: [80,7]
+      adjust.shift: [80,-7]
     - what: circle
       radius: m2
       where: thumb_neutral_single
@@ -108,6 +110,18 @@ outlines:
       radius: m2
       where: matrix_pinky_bottom
       adjust.shift: [15,-1]
+  promicro:
+    - what: rectangle
+      size: [18, 33]
+      where:
+        ref: matrix_middle_top
+        shift: [62, -6]
+  trrs:
+    - what: rectangle
+      size: [6, 12]
+      where:
+        ref: matrix_middle_top
+        shift: [77, 4.5]
 
   trackball_breakout:
     - what: rectangle
@@ -115,7 +129,7 @@ outlines:
       size: [2, 22]
       where:
         ref: matrix_middle_bottom
-        shift: [-12,-35]
+        shift: [-13,-35]
   board_left:
     - what: polygon
       fillet: 2
@@ -153,7 +167,6 @@ outlines:
           shift: [-25,-46]
         - ref: matrix_pinky_bottom
           shift: [11.3,-11.5]
-
 
   plate_left:
     - what: polygon
@@ -195,6 +208,13 @@ outlines:
       operation: stack
     - name: trackball_breakout
       operation: stack
+    - name: promicro
+      operation: stack
+    - name: trrs
+      operation: stack
+    - name: keycaps_left
+      operation: stack
+
 
 pcbs:
   Kivipallur_left:
@@ -202,6 +222,14 @@ pcbs:
       - outline: board_left
         layer: Edge.Cuts
       - outline: switches_left
-        layer: User.Drawings
+        layer: User.Comments
+      - outline: keycaps_left
+        layer: User.Comments
       - outline: mounting_holes_left
+        layer: User.Comments
+      - outline: trackball_breakout
+        layer: User.Comments
+      - outline: promicro
+        layer: User.Comments
+      - outline: trrs
         layer: User.Comments
