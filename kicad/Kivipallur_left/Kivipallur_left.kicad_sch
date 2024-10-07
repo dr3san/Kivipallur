@@ -1523,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 111.76) (xy 54.61 125.73)
+			(xy 54.61 111.76) (xy 54.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1593,23 +1593,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 111.76) (xy 57.15 125.73)
+			(xy 57.15 111.76) (xy 57.15 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37085dbf-8736-4d68-bc72-846e4ac8c152")
-	)
-	(wire
-		(pts
-			(xy 49.53 111.76) (xy 49.53 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520f9204-0342-4163-bca9-c34e7c44d89e")
 	)
 	(wire
 		(pts
@@ -1843,6 +1833,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 111.76) (xy 52.07 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0554813-28e0-4cad-a75a-2f2996994313")
+	)
+	(wire
+		(pts
 			(xy 104.14 39.37) (xy 120.65 39.37)
 		)
 		(stroke
@@ -1883,23 +1883,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 111.76) (xy 59.69 125.73)
+			(xy 59.69 111.76) (xy 59.69 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d20d856b-1227-48e1-8d22-772c22d6a40e")
-	)
-	(wire
-		(pts
-			(xy 52.07 111.76) (xy 52.07 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d288ceac-a334-41f8-b22e-6abe8d6394bb")
 	)
 	(wire
 		(pts
@@ -1963,6 +1953,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 111.76) (xy 49.53 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24bfdd9-6387-4624-97a8-66a375534d17")
+	)
+	(wire
+		(pts
 			(xy 25.4 96.52) (xy 41.91 96.52)
 		)
 		(stroke
@@ -1983,7 +1983,7 @@
 		(uuid "0176bf2c-1169-420f-9438-48bd7e2cf5cd")
 	)
 	(label "PINKY_HOME"
-		(at 52.07 125.73 90)
+		(at 52.07 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2093,7 +2093,7 @@
 		(uuid "37da4335-856c-4f2f-97e6-45981fcfb0cf")
 	)
 	(label "INNER_BOTTOM"
-		(at 54.61 125.73 90)
+		(at 54.61 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2302,7 +2302,7 @@
 		(uuid "b4e6dc8a-2fa3-4326-bb25-d6bc2b55e3c5")
 	)
 	(label "INDEX_BOTTOM"
-		(at 57.15 125.73 90)
+		(at 57.15 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2346,7 +2346,7 @@
 		(uuid "c76b26f6-567f-4a5d-aa07-045ee96538dc")
 	)
 	(label "RING_HOME"
-		(at 49.53 125.73 90)
+		(at 49.53 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2390,7 +2390,7 @@
 		(uuid "ebee1af3-b6ee-40fe-a339-b5317a9384d0")
 	)
 	(label "MIDDLE_BOTTOM"
-		(at 59.69 125.73 90)
+		(at 59.69 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
