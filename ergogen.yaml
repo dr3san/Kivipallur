@@ -2,24 +2,24 @@ meta:
   author: dresan
   version: 1
 units:
+  $default_width: cx
+  $default_height: cy
   kx: cx
   ky: cy
   m2: 2.2
   chocv1: 15 
   px: kx + 4
   py: ky + 4
-  $default_width: cx
-  $default_height: cy
 points:
   mirror: &mirror
     ref: thumb_outer_single
     distance: 1.5kx
   key:
-    spread: kx + 0.2
-    padding: ky + 0.2
+    spread: kx + 0.4
+    padding: ky + 0.4
   zones:
     matrix:
-      rotate: 8
+      rotate: 7
       columns:
         outer:
           rows.bottom: $unset
@@ -27,12 +27,12 @@ points:
           key.stagger: -9
         ring:
           key:
-            spread: kx + 3
-            splay: -5
-            stagger: 15
+            spread: kx + 2
+            splay: -4
+            stagger: 12
         middle:
           key:
-            stagger: 4
+            stagger: 6
             splay: -3
             spread: kx + 1.5
         index:
@@ -59,8 +59,8 @@ points:
             shift: [2, -2.5]
         outer: 
           key:
-            rotate: -8
-            shift: [3.3,-4]
+            rotate: -12
+            shift: [3.8,-4.7]
       rows:
         single:
 
