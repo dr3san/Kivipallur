@@ -164,8 +164,12 @@ outlines:
           shift: [-px, -py]
         - ref: matrix_inner_bottom
           shift: [0, -py]
+        - ref: matrix_inner_bottom
+          shift: [-px, -py]
+        - ref: matrix_index_bottom
+          shift: [0, -py]
         - ref: matrix_middle_bottom
-          shift: [-14, -18.5]
+          shift: [-14, -17.2]
         - ref: matrix_middle_bottom
           shift: [-14, -51]
         - ref: matrix_middle_bottom
@@ -211,11 +215,9 @@ outlines:
         - ref: matrix_pinky_bottom
           shift: [3.5, -py]
         - ref: matrix_pinky_bottom
-          shift: [-px, -py]
-        - ref: matrix_pinky_bottom
-          shift: [-px, -3py-2.5]
+          shift: [-px-10, -py]
         - ref: matrix_middle_bottom
-          shift: [-50, -56.5]
+          shift: [-58, -56.5]
     - what: circle
       radius: m2
       where: matrix_middle_bottom
@@ -225,6 +227,19 @@ outlines:
       radius: m2
       where: matrix_middle_bottom
       adjust.shift: [75,-10]
+      operation: stack
+    # vahe 16 mm
+    - what: circle
+      radius: m2
+      where:
+        ref: matrix_middle_bottom
+        shift: [0, -29]
+      operation: stack
+    - what: circle
+      radius: m2
+      where:
+        ref: matrix_middle_bottom
+        shift: [0, -45]
       operation: stack
 
   combo_left:
