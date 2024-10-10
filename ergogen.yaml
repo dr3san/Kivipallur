@@ -277,3 +277,11 @@ pcbs:
         layer: User.Comments
       - outline: trrs
         layer: User.Comments
+  Kivipallur_bottom_plate:
+    outlines:
+      - outline: plate_left
+        layer: Edge.Cuts
+      - outline: mounting_holes_left
+        layer: User.Comments
+    
+
