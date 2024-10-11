@@ -4471,7 +4471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:Helios_AC"
+		(property "Footprint" "PCM_marbastlib-xp-promicroish:Helios_ACH"
 			(at 54.61 114.3 0)
 			(effects
 				(font
