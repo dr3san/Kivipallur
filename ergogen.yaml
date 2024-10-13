@@ -82,6 +82,15 @@ outlines:
       where: /(^matrix_.*)|(^thumb_.*)/
       size: [kx, ky]
       operation: stack
+  keycaps_right:
+    # these help snap the footprint in place
+    - what: circle
+      radius: 1
+      where: /(^mirror_matrix_.*)|(^mirror_thumb_.*)/
+    - what: rectangle
+      where: /(^mirror_matrix_.*)|(^mirror_thumb_.*)/
+      size: [kx, ky]
+      operation: stack
   mounting_holes_left:
     - what: circle
       radius: m2
@@ -115,24 +124,78 @@ outlines:
       radius: m2
       where: matrix_pinky_bottom
       adjust.shift: [9, -26]
-  helios:
+
+  mounting_holes_right:
+    - what: circle
+      radius: m2
+      where: mirror_matrix_outer_top
+      adjust.shift: [0, 13.5]
+    - what: circle
+      radius: m2
+      where: mirror_matrix_outer_home
+      adjust.shift: [0, -13.5]
+    - what: circle
+      radius: m2
+      where: mirror_matrix_ring_top
+      adjust.shift: [0, 13]
+    - what: circle
+      radius: m2
+      where: mirror_matrix_index_top
+      adjust.shift: [0, 13.5]
+    - what: circle
+      radius: m2
+      where: mirror_matrix_inner_home
+      adjust.shift: [40, 0]
+    - what: circle
+      radius: m2
+      where: mirror_thumb_neutral_single
+      adjust.shift: [11, 13]
+    - what: circle
+      radius: m2
+      where: mirror_matrix_middle_bottom
+      adjust.shift: [0, -13]
+    - what: circle
+      radius: m2
+      where: mirror_matrix_pinky_bottom
+      adjust.shift: [9, -26]
+  helios_left:
     - what: rectangle
       adjust.rotate: 0
       size: [18, 33]
       where:
         ref: matrix_inner_top
         shift: [22, -4]
-  trrs:
+
+  helios_right:
+    - what: rectangle
+      adjust.rotate: 0
+      size: [18, 33]
+      where:
+        ref: mirror_matrix_inner_top
+        shift: [22, -4]
+  trrs_left:
     - what: rectangle
       size: [6, 12]
       where:
         ref: matrix_inner_top
         shift: [39, 6]
-  trackball_breakout:
+  trrs_right:
+    - what: rectangle
+      size: [6, 12]
+      where:
+        ref: mirror_matrix_inner_top
+        shift: [39, 6]
+  trackball_breakout_left:
     - what: rectangle
       size: [2, 22]
       where:
         ref: matrix_middle_bottom
+        shift: [-13, -37]
+  trackball_breakout_right:
+    - what: rectangle
+      size: [2, 22]
+      where:
+        ref: mirror_matrix_middle_bottom
         shift: [-13, -37]
   board_left:
     - what: polygon
@@ -176,7 +239,71 @@ outlines:
           shift: [-30, -51]
         - ref: matrix_pinky_bottom
           shift: [3.5, -py]
-  plate_left:
+
+  board_right:
+    - what: polygon
+      fillet: 2
+      points:
+        - ref: mirror_matrix_pinky_bottom
+          shift: [-kx-px, -py]
+        - ref: mirror_matrix_pinky_top
+          shift: [-kx-px, py]
+        - ref: mirror_matrix_pinky_top
+          shift: [px, py]
+        - ref: mirror_matrix_middle_top
+          shift: [-kx-px-4.5, py]
+        - ref: mirror_matrix_middle_top
+          shift: [32.8, py]
+        - ref: mirror_matrix_index_top
+          shift: [px, py]
+        - ref: mirror_matrix_index_top
+          shift: [65, py]
+        - ref: mirror_matrix_index_bottom
+          shift: [65, -py]
+        - ref: mirror_thumb_outer_single
+          shift: [px, py]
+        - ref: mirror_thumb_outer_single
+          shift: [px, -py]
+        - ref: mirror_thumb_neutral_single
+          shift: [px-2, -py]
+        - ref: mirror_thumb_neutral_single
+          shift: [-px, -py]
+        - ref: mirror_matrix_inner_bottom
+          shift: [0, -py]
+        - ref: mirror_matrix_inner_bottom
+          shift: [-px, -py]
+        - ref: mirror_matrix_index_bottom
+          shift: [0, -py]
+        - ref: mirror_matrix_middle_bottom
+          shift: [-14, -17.2]
+        - ref: mirror_matrix_middle_bottom
+          shift: [-14, -51]
+        - ref: mirror_matrix_middle_bottom
+          shift: [-30, -51]
+        - ref: mirror_matrix_pinky_bottom
+          shift: [3.5, -py]
+
+  plate_holes:
+    - what: circle
+      radius: m2
+      where: matrix_middle_bottom
+      adjust.shift: [55,-10]
+    - what: circle
+      radius: m2
+      where: matrix_middle_bottom
+      adjust.shift: [75,-10]
+    # vahe 16 mm
+    - what: circle
+      radius: m2
+      where:
+        ref: matrix_middle_bottom
+        shift: [0, -29]
+    - what: circle
+      radius: m2
+      where:
+        ref: matrix_middle_bottom
+        shift: [0, -45]
+  plate:
     - what: polygon
       fillet: 2
       points:
@@ -218,28 +345,9 @@ outlines:
           shift: [-px-10, -py]
         - ref: matrix_middle_bottom
           shift: [-58, -56.5]
-    - what: circle
-      radius: m2
-      where: matrix_middle_bottom
-      adjust.shift: [55,-10]
+    - name: plate_holes
       operation: stack
-    - what: circle
-      radius: m2
-      where: matrix_middle_bottom
-      adjust.shift: [75,-10]
-      operation: stack
-    # vahe 16 mm
-    - what: circle
-      radius: m2
-      where:
-        ref: matrix_middle_bottom
-        shift: [0, -29]
-      operation: stack
-    - what: circle
-      radius: m2
-      where:
-        ref: matrix_middle_bottom
-        shift: [0, -45]
+    - name: mounting_holes_left
       operation: stack
 
   combo_left:
@@ -248,17 +356,31 @@ outlines:
       operation: stack
     - name: switches_left
       operation: stack
-    - name: plate_left
+    - name: plate
       operation: stack
-    - name: trackball_breakout
+    - name: trackball_breakout_left
       operation: stack
-    - name: helios
+    - name: helios_left
       operation: stack
-    - name: trrs
+    - name: trrs_left
       operation: stack
     - name: keycaps_left
       operation: stack
 
+  combo_right:
+    - name: board_right
+    - name: mounting_holes_right
+      operation: stack
+    - name: switches_right
+      operation: stack
+    - name: trackball_breakout_right
+      operation: stack
+    - name: helios_right
+      operation: stack
+    - name: trrs_right
+      operation: stack
+    - name: keycaps_right
+      operation: stack
 
 pcbs:
   Kivipallur_left:
@@ -271,15 +393,31 @@ pcbs:
         layer: User.Comments
       - outline: mounting_holes_left
         layer: User.Comments
-      - outline: trackball_breakout
+      - outline: trackball_breakout_left
         layer: User.Comments
-      - outline: helios
+      - outline: helios_left
         layer: User.Comments
-      - outline: trrs
+      - outline: trrs_left
+        layer: User.Comments
+  Kivipallur_right:
+    outlines:
+      - outline: board_right
+        layer: Edge.Cuts
+      - outline: switches_right
+        layer: User.Comments
+      - outline: keycaps_right
+        layer: User.Comments
+      - outline: mounting_holes_right
+        layer: User.Comments
+      - outline: trackball_breakout_right
+        layer: User.Comments
+      - outline: helios_right
+        layer: User.Comments
+      - outline: trrs_right
         layer: User.Comments
   Kivipallur_bottom_plate:
     outlines:
-      - outline: plate_left
+      - outline: plate
         layer: Edge.Cuts
       - outline: mounting_holes_left
         layer: User.Comments
