@@ -356,7 +356,7 @@
 		(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "63b0e006-5d72-4a37-a2a9-b36518064455")
@@ -368,7 +368,7 @@
 			)
 		)
 		(property "Value" "LP2985-1.8"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14992ff5-e7a5-47ea-be13-c9c8a470b708")
@@ -566,7 +566,7 @@
 			(uuid "83a20830-5b51-4ba5-b413-b1c19a03ffc1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "eb0ed7c8-f8ea-4e93-89ab-c01697c7ec4f")
 			(effects
@@ -645,7 +645,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "af997dfa-454a-4a6e-8bf0-c6bdf9c11284")
@@ -657,7 +657,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "45a9940d-2675-493b-8ecb-cbf2a2f9edea")
 			(effects
@@ -812,7 +812,7 @@
 			(uuid "788133b7-b885-432d-8c52-56dcc707057b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fa0a7fc6-0340-453e-a727-973b8987278f")
 			(effects
@@ -1073,7 +1073,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c39cbb42-e1e3-491c-a8a3-28b68a1eace8")
@@ -1085,7 +1085,7 @@
 			)
 		)
 		(property "Value" "39R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e8967b1b-1da4-46dd-a0b2-a32a7610855c")
 			(effects
@@ -1240,7 +1240,7 @@
 			(uuid "952a4638-8e0e-4aac-b04b-7220ad9f7450")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fdb9b4da-4642-4c36-92ee-47d3ca50d2d1")
 			(effects
@@ -1287,7 +1287,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c324b629-19d4-4672-8d84-36f7212b10c4")
@@ -1299,7 +1299,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "02a6bd6b-c562-4a63-b158-99faacaffae4")
 			(effects
@@ -1454,7 +1454,7 @@
 			(uuid "e480b771-517c-40fe-a6fa-35f2771a7cee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "039a920b-cb6d-4660-af30-e9d9186c3e8d")
 			(effects
@@ -1715,7 +1715,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c36f49ef-1098-4678-ae6e-1fb1121a8b40")
@@ -1727,7 +1727,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7ea2b054-ca19-4d48-b089-0932a0b64eb8")
 			(effects
@@ -1882,7 +1882,7 @@
 			(uuid "68620cd2-55a2-46dc-9eb0-b0a993b09f2e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c20ad375-1e6a-4a96-984c-7f6c9b39f082")
 			(effects

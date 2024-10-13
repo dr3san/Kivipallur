@@ -1,11 +1,13 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "hidden_nets": [
+      "GND"
+    ],
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -34,12 +36,15 @@
       3,
       4,
       5,
+      6,
+      7,
       8,
       9,
       10,
       11,
       12,
       13,
+      14,
       15,
       16,
       17,
@@ -61,7 +66,6 @@
       34,
       35,
       36,
-      39,
       40
     ],
     "visible_layers": "ffdffff_ffffffff",
@@ -74,7 +78,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Kivipallur_PMW3360_breakout.kicad_prl",
+    "filename": "Kivipallur_right.kicad_prl",
     "version": 3
   },
   "project": {
