@@ -472,7 +472,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../gerbers/Kivipallur_right/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

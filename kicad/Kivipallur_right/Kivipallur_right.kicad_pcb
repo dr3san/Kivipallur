@@ -1132,7 +1132,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6.999997 6)
+			(end -6.999996 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1161,7 +1161,7 @@
 			(uuid "576e3521-88c6-4004-8830-03bd2a3cf78a")
 		)
 		(fp_line
-			(start -6 -6.999997)
+			(start -6 -6.999996)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -1171,7 +1171,7 @@
 			(uuid "b0f08bc6-7175-44d9-b252-798a2096cb72")
 		)
 		(fp_line
-			(start 6 6.999997)
+			(start 6 6.999996)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -1202,7 +1202,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999997 -6)
+			(end 6.999996 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4773,7 +4773,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6.999997 6)
+			(end -6.999996 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4802,7 +4802,7 @@
 			(uuid "56a35499-3ce3-49b8-9fa2-8d1a04986f1e")
 		)
 		(fp_line
-			(start -6 -6.999997)
+			(start -6 -6.999996)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -4812,7 +4812,7 @@
 			(uuid "c0a6b661-6cdc-40ee-ab42-9867f7832f72")
 		)
 		(fp_line
-			(start 6 6.999997)
+			(start 6 6.999996)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -4843,7 +4843,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999997 -6)
+			(end 6.999996 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -10264,7 +10264,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6.999997 6)
+			(end -6.999996 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -10293,7 +10293,7 @@
 			(uuid "bea91c1a-ec15-456c-a03d-10602bb91c33")
 		)
 		(fp_line
-			(start -6 -6.999997)
+			(start -6 -6.999996)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -10303,7 +10303,7 @@
 			(uuid "4b312b66-8068-4ba0-80a2-a39f33fc74e5")
 		)
 		(fp_line
-			(start 6 6.999997)
+			(start 6 6.999996)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -10334,7 +10334,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6.999997 -6)
+			(end 6.999996 -6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -11563,7 +11563,7 @@
 		)
 		(fp_arc
 			(start -7.62 15.44)
-			(mid -8.182544 15.328101)
+			(mid -8.182543 15.328101)
 			(end -8.659447 15.009447)
 			(stroke
 				(width 0.15)
