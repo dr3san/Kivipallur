@@ -345,10 +345,6 @@ outlines:
           shift: [-px-10, -py]
         - ref: matrix_middle_bottom
           shift: [-58, -56.5]
-    - name: plate_holes
-      operation: stack
-    - name: mounting_holes_left
-      operation: stack
 
   combo_left:
     - name: board_left
@@ -380,6 +376,13 @@ outlines:
     - name: trrs_right
       operation: stack
     - name: keycaps_right
+      operation: stack
+
+  combo_plate:
+    - name: plate
+    - name: plate_holes
+      operation: stack
+    - name: mounting_holes_left
       operation: stack
 
 pcbs:
@@ -415,11 +418,13 @@ pcbs:
         layer: User.Comments
       - outline: trrs_right
         layer: User.Comments
-  Kivipallur_bottom_plate:
+  Kivipallur_plate:
     outlines:
       - outline: plate
         layer: Edge.Cuts
       - outline: mounting_holes_left
+        layer: User.Comments
+      - outline: plate_holes
         layer: User.Comments
     
 
