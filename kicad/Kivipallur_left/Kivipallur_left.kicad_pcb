@@ -436,7 +436,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -456,8 +456,8 @@
 			(uuid "32ad3c0f-0d9a-4eed-bc99-20c348a99793")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -768,7 +768,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -808,8 +808,8 @@
 			(uuid "97a6e212-6ec5-469a-9fc4-662399a72ae1")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -1141,7 +1141,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1161,8 +1161,8 @@
 			(uuid "c33cd354-2972-4287-abc7-96487e7779ef")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -1473,7 +1473,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1513,8 +1513,8 @@
 			(uuid "2fbb7bfe-a46e-45ba-be41-63b313b10baa")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -1962,7 +1962,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1982,8 +1982,8 @@
 			(uuid "3a8374d2-80e3-4013-acec-454ca3a8b0be")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -2294,7 +2294,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2334,8 +2334,8 @@
 			(uuid "b073c47f-1794-423a-8c1b-6bdac5d8d482")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -2597,7 +2597,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999998 -3.7)
+			(end 0.999997 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2676,8 +2676,8 @@
 			(uuid "9fe9069a-f850-48f7-879c-fe8d95545ffd")
 		)
 		(fp_arc
-			(start 0.999998 -3.7)
-			(mid 2.060659 -3.26066)
+			(start 0.999997 -3.7)
+			(mid 2.060659 -3.260661)
 			(end 2.5 -2.2)
 			(stroke
 				(width 0.15)
@@ -2698,7 +2698,7 @@
 			(uuid "0293f239-a854-420c-b209-7ecd891e49c7")
 		)
 		(fp_line
-			(start -6.999998 -6)
+			(start -6.999997 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -2719,7 +2719,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 6.999998)
+			(end -6 6.999997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2749,7 +2749,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -6.999998)
+			(end 6 -6.999997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2768,7 +2768,7 @@
 			(uuid "1dc03ab1-2a34-4e54-ad82-e89bbd24ee7c")
 		)
 		(fp_line
-			(start 6.999998 6)
+			(start 6.999997 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -2929,7 +2929,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999998 -3.7)
+			(end 0.999997 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3028,8 +3028,8 @@
 			(uuid "0061ca12-b07a-4400-9e11-25a979260c55")
 		)
 		(fp_arc
-			(start 0.999998 -3.7)
-			(mid 2.060659 -3.26066)
+			(start 0.999997 -3.7)
+			(mid 2.060659 -3.260661)
 			(end 2.5 -2.2)
 			(stroke
 				(width 0.15)
@@ -3208,7 +3208,7 @@
 		(descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "SW1"
-			(at 0 -8.254998 7)
+			(at 0 -8.254997 7)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7a4b0cb4-f7d9-4cd9-baef-e55e42eb4fdd")
@@ -4077,7 +4077,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4097,8 +4097,8 @@
 			(uuid "aab85119-992c-45eb-80c0-e2a6a0a411b6")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -4409,7 +4409,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4449,8 +4449,8 @@
 			(uuid "1646e750-be28-4915-b80e-4d76bb6ffead")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -4782,7 +4782,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -4802,8 +4802,8 @@
 			(uuid "29c86d7c-64a7-43de-95a1-38eb837c65f1")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -5114,7 +5114,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5154,8 +5154,8 @@
 			(uuid "00083433-a571-4033-a8e3-19b773bbcd56")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -5323,7 +5323,7 @@
 		(descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "SW2"
-			(at 0 -8.254998 7)
+			(at 0 -8.254997 7)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d1a6eabe-9bd8-4cfb-bc78-ae6c7bd0289c")
@@ -6122,7 +6122,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999998 -3.7)
+			(end 0.999997 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6201,8 +6201,8 @@
 			(uuid "b6ca4041-dace-43c7-91d1-3fa1af7e8c6b")
 		)
 		(fp_arc
-			(start 0.999998 -3.7)
-			(mid 2.060659 -3.26066)
+			(start 0.999997 -3.7)
+			(mid 2.060659 -3.260661)
 			(end 2.5 -2.2)
 			(stroke
 				(width 0.15)
@@ -6223,7 +6223,7 @@
 			(uuid "f101154d-712c-4b2f-9566-f596673d917c")
 		)
 		(fp_line
-			(start -6.999998 -6)
+			(start -6.999997 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -6244,7 +6244,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 6.999998)
+			(end -6 6.999997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6274,7 +6274,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -6.999998)
+			(end 6 -6.999997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6293,7 +6293,7 @@
 			(uuid "babbb2d9-4b41-485d-b504-aa9c7a0dbcd4")
 		)
 		(fp_line
-			(start 6.999998 6)
+			(start 6.999997 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -6454,7 +6454,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999998 -3.7)
+			(end 0.999997 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6553,8 +6553,8 @@
 			(uuid "eec85f1e-e998-420f-a93d-408610aac87e")
 		)
 		(fp_arc
-			(start 0.999998 -3.7)
-			(mid 2.060659 -3.26066)
+			(start 0.999997 -3.7)
+			(mid 2.060659 -3.260661)
 			(end 2.5 -2.2)
 			(stroke
 				(width 0.15)
@@ -7035,7 +7035,7 @@
 		)
 		(fp_arc
 			(start -7.62 15.44)
-			(mid -8.182544 15.328104)
+			(mid -8.182545 15.328104)
 			(end -8.659447 15.009447)
 			(stroke
 				(width 0.15)
@@ -7766,7 +7766,7 @@
 		(descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "SW3"
-			(at 0 -8.254998 7)
+			(at 0 -8.254997 7)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2e8d8a1c-2633-49f3-8eb7-bdee3bb18e99")
@@ -8751,7 +8751,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8771,8 +8771,8 @@
 			(uuid "65a2167e-c246-42be-b2c9-f43e5dcd9366")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -9083,7 +9083,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9123,8 +9123,8 @@
 			(uuid "f7bb4315-db39-4337-960e-13acb79a1f77")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -9292,7 +9292,7 @@
 		(descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "SW4"
-			(at 0 -8.254998 7)
+			(at 0 -8.254997 7)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c1911a6b-bf64-48d7-9a3f-a8c1e43659b1")
@@ -11639,7 +11639,7 @@
 		(descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "SW5"
-			(at 0 -8.254998 7)
+			(at 0 -8.254997 7)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4e4db854-f327-4bd9-bb54-0e94a7ad9010")
@@ -13375,7 +13375,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999998 -3.7)
+			(end 0.999997 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13454,8 +13454,8 @@
 			(uuid "1ea782a7-afc8-4238-b98b-f82bf4d20904")
 		)
 		(fp_arc
-			(start 0.999998 -3.7)
-			(mid 2.060659 -3.26066)
+			(start 0.999997 -3.7)
+			(mid 2.060659 -3.260661)
 			(end 2.5 -2.2)
 			(stroke
 				(width 0.15)
@@ -13476,7 +13476,7 @@
 			(uuid "34129ef6-298c-4b33-8c4b-30e93d79210c")
 		)
 		(fp_line
-			(start -6.999998 -6)
+			(start -6.999997 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -13497,7 +13497,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 6.999998)
+			(end -6 6.999997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13527,7 +13527,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -6.999998)
+			(end 6 -6.999997)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13546,7 +13546,7 @@
 			(uuid "41288a14-abf2-4bb8-bcf6-103035ad81c0")
 		)
 		(fp_line
-			(start 6.999998 6)
+			(start 6.999997 6)
 			(end 7 7)
 			(stroke
 				(width 0.15)
@@ -13707,7 +13707,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999998 -3.7)
+			(end 0.999997 -3.7)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13806,8 +13806,8 @@
 			(uuid "41f856e6-c16f-423f-b4b3-48bf1694f6c2")
 		)
 		(fp_arc
-			(start 0.999998 -3.7)
-			(mid 2.060659 -3.26066)
+			(start 0.999997 -3.7)
+			(mid 2.060659 -3.260661)
 			(end 2.5 -2.2)
 			(stroke
 				(width 0.15)
@@ -14266,7 +14266,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14286,8 +14286,8 @@
 			(uuid "5ae4bedb-bd40-4a8a-a5e8-d8be53c0ec6c")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
@@ -14598,7 +14598,7 @@
 		)
 		(fp_line
 			(start 7 -6.2)
-			(end 2.5 -6.200002)
+			(end 2.5 -6.200003)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14638,8 +14638,8 @@
 			(uuid "055c95ee-397d-45ba-9aff-7bd43041f944")
 		)
 		(fp_arc
-			(start 2.5 -6.200002)
-			(mid 2.146448 -6.346447)
+			(start 2.5 -6.200003)
+			(mid 2.146448 -6.346448)
 			(end 2 -6.7)
 			(stroke
 				(width 0.15)
